@@ -1,0 +1,38 @@
+/* Titulos de los días del calendario*/
+.fc-col-header-cell-cushion {
+    font-size: 1.5rem;
+    font-family: 'Verdana', sans-serif;
+    color: brown;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/* Tabla completa para cambiar el cursor */
+.fc-scrollgrid-sync-table {
+    cursor: pointer;
+}
+
+/* Numeros del calendario */
+.fc .fc-daygrid-day-number {
+    font-size: 1rem;
+    font-family: 'Arial', sans-serif;
+    color: green;
+    text-decoration: none;
+}
+
+/* Titulo (fecha en grande) del calendario */
+.fc .fc-toolbar-title {
+    font-family: 'Times New Roman', serif;
+    font-size: 5rem;
+    color: black;
+}
+
+.fc .fc-toolbar-title::first-letter {
+    text-transform: uppercase;
+}
+
+.modal-body img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
